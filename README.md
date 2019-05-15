@@ -1,6 +1,6 @@
 # Xello
 
-This project was generated with [Angular CLI] version 7.3.9.
+This project was generated with [Angular CLI] version 7.3.9. <br/>
 Please try it on Google Chrome.
 
 ## What to look at this project:
