@@ -1,27 +1,41 @@
 # Xello
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
+This project was generated with [Angular CLI] version 7.3.9.
 
-## Development server
+##What to look at this project:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+###Objectives:
+* Create a single page Angular 4+ app with simple routing that has one state/view. - DONE.
+** Details: Angular version 7.3.9. was used, it is a single page project with one view.
+* In it, place two button that when clicked, show a tooltip above the button with some text in it. - DONE.
+** Details: There are three buttons.
+*When bitton A is clicked, if button B's tooltip is open it should close and vice versa = only one tooltip should be visible at a time. - DONE.
+** Details: Buttons have also hover over functionality, when a button is clicked and tooltip is on, by hovering over other buttons' tooltips can be seen but if another \n
+button is clicked that button's tooltip closes and the newly clicked one's open.
+* Either tooltip should close when clicked anywhere outside of it, but remain open if clicked inside. - DONE.
+** Details: N/A
+* Either tooltip should close when ESC key is pressed. - DONE.
+** Details: N/A
 
-## Code scaffolding
+###Implementation:
+*Tooltip functionality should be written as a reusable component or directive. Please do not use any existing plugins. - DONE.
+** No plugins used and is it 100% reusable.
+* You are encouraged to use the Angular CLI or a starter/seed project to save time scaffolding. - DONE.
+** Started seed was used. It is basically created from scratch.
+*You can organize files/folders in any way. - DONE.
+** It was designed in a way that makes the navigation between folders and files easy and the code is very clean that makes it easy to read.
+* The reviewer should be able to run your solution with a simple npm command. - DONE.
+** npm install && npm start will load the node modules and run the project.
+* You should submit your solution as a github repository link. - DONE.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+###Bonus:
+* If you scroll down to an open tooltip it should detect being at the edge of the screen and change position to be below the button +++ - DONE.
+** To try you can click to a button to open a tooltip and scroll down, when it hits to the end of the page the tooltip will move below the button.
+* Style using either Bootstrap saa or SCSS BEM ++ - DONE.
+** Bootstrap 4 was used.
+* Add at least one accessibility feature + - NOT DONE.
+** There is no feature for accessibility.
+* Design and style the app so that it is responsive + - DONE.
+** It is designed very clean and it is fully responsive.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Doga Ister
