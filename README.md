@@ -21,7 +21,7 @@ This project was generated with [Angular CLI] version 7.3.9.
 ** No plugins used and it is 100% reusable.
 * You are encouraged to use the Angular CLI or a starter/seed project to save time scaffolding. <b>- DONE.</b> <br/>
 ** Started seed was used. It is basically created from scratch. <br/>
-*You can organize files/folders in any way. <b> - DONE.</b> <br/>
+* You can organize files/folders in any way. <b> - DONE.</b> <br/>
 ** It was designed in a way that makes the navigation between folders and files easy and the code is very clean that makes it easy to read.
 * The reviewer should be able to run your solution with a simple npm command. <b>- DONE.</b> <br/>
 ** npm install && npm start will load the node modules and run the project.
