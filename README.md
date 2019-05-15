@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI] version 7.3.9.
 
-##What to look at this project:
+## What to look at this project:
 
 ### Objectives:
 * Create a single page Angular 4+ app with simple routing that has one state/view. <b> - DONE.</b> <br/>
@@ -18,7 +18,7 @@ This project was generated with [Angular CLI] version 7.3.9.
 
 ### Implementation:
 *Tooltip functionality should be written as a reusable component or directive. Please do not use any existing plugins. <b>- DONE.</b> <br/>
-** No plugins used and is it 100% reusable.
+** No plugins used and it is 100% reusable.
 * You are encouraged to use the Angular CLI or a starter/seed project to save time scaffolding. <b>- DONE.</b> <br/>
 ** Started seed was used. It is basically created from scratch.
 *You can organize files/folders in any way. <b> - DONE.</b> <br/>
