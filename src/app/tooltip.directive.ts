@@ -11,9 +11,6 @@ export class TooltipDirective {
   offset = 10;
 
   constructor(private el: ElementRef, private renderer: Renderer2) { }
-
-  public text: String;
-
   private wasInside = false;
 
   @Input() makeDifferent;
