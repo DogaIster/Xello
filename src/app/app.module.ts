@@ -8,8 +8,11 @@ import { HomeComponent } from './pages/home/home.component';
 import { FooterComponent } from './template/footer/footer.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
-import { TooltipComponent } from './tooltip/tooltip.component';
+import { TooltipDirective } from './tooltip.directive';
+
+
 import {RouterModule} from '@angular/router';
+import { TooltipComponent } from './tooltip/tooltip.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,8 @@ import {RouterModule} from '@angular/router';
     AboutComponent,
     ContactComponent,
     TooltipComponent,
-  ],
+    TooltipDirective
+],
   imports: [
     BrowserModule,
     AppRoutingModule
